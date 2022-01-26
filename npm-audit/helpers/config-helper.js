@@ -2,6 +2,9 @@
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 
+/**
+ * This class allows us to handle things related to using a configuration file
+ */
 class configHelper {
   /**
    * Initializes the class with the necessary defaults
